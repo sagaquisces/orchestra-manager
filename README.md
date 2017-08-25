@@ -46,6 +46,11 @@ export var masterFirebaseConfig = {
 ```
 You'll want to add the strings that were provided by Firebase that you saved from the popup window in Firebase. You only need the parameters outlined in the `api-keys.ts` file.
 
+* Visit your Firebase Console again, click on the *Database* option, select the three vertical dots on the right-hand side of the grey bar with your database URL on it.
+
+* Select *Import JSON* from this menu, and upload the `sample-members.json` file at the top level of the project directory.
+* The database should now have records! Run `ng serve` at the command line and visit `http://localhost:4200/` in your web browser!
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.

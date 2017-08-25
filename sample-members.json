@@ -1,0 +1,38 @@
+{ "members": [{
+    "name": "Mac Trier",
+    "instrument": "Flute",
+    "bio": "Bio will go here",
+    "imageUrl": "https://images.pexels.com/photos/262391/pexels-photo-262391.jpeg?w=940&h=650&auto=compress&cs=tinysrgb",
+    "id": "1"
+    }, {
+    "name": "Dominic Smith",
+    "instrument": "Trumpet",
+    "bio": "Bio will go here",
+    "imageUrl": "https://images.pexels.com/photos/544716/pexels-photo-544716.jpeg?w=940&h=650&auto=compress&cs=tinysrgb",
+    "id": "2"
+    }, {
+    "name": "Michael Schultz",
+    "instrument": "Trombone",
+    "bio": "Bio will go here",
+    "imageUrl": "https://images.pexels.com/photos/450214/pexels-photo-450214.jpeg?w=940&h=650&auto=compress&cs=tinysrgb",
+    "id": "3"
+    }, {
+    "name": "Philip Exultate",
+    "instrument": "Percussion",
+    "bio": "Bio will go here",
+    "imageUrl": "https://images.pexels.com/photos/428339/pexels-photo-428339.jpeg?w=940&h=650&auto=compress&cs=tinysrgb",
+    "id": "4"
+    }, {
+    "name": "Nancita Trifonov",
+    "instrument": "Violin",
+    "bio": "Bio will go here",
+    "imageUrl": "https://images.pexels.com/photos/458665/pexels-photo-458665.jpeg?w=940&h=650&auto=compress&cs=tinysrgb",
+    "id": "5"
+    }, {
+    "name": "Julie Meyer",
+    "instrument": "Viola",
+    "bio": "Bio will go here",
+    "imageUrl": "https://images.pexels.com/photos/415298/pexels-photo-415298.jpeg?w=940&h=650&auto=compress&cs=tinysrgb",
+    "id": "6"
+  }]
+}

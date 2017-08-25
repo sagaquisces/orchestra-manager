@@ -1,5 +1,5 @@
 <h2>Orchestra Roster</h2>
 
-<div *ngFor="let member of members">
+<div *ngFor="let member of members | async">
   <p class="lead"><strong id="memberElement" (click)="goToDetailPage(member)">{{member.name}}</strong> plays <strong>{{member.instrument}}</strong></p>
 </div>
