@@ -2,4 +2,10 @@
 
 <div *ngFor="let member of members | async">
   <p class="lead"><strong id="memberElement" (click)="goToDetailPage(member)">{{member.name}}</strong> plays <strong>{{member.instrument}}</strong></p>
+
+  <div *ngIf="currentRoute === '/admin'">
+    <p>{{member.bio}}</p>
+    <hr>
+    <app-edit-member [selectedMember]="member"></app-edit-member>
+  </div>
 </div>
