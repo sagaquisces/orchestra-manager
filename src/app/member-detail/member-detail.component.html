@@ -1,9 +1,9 @@
 <div class="media">
   <div class="media-left">
-    <img src={{memberToDisplay.imageUrl}} class="media-object" style="width:200px">
+    <img src='{{(memberToDisplay | async).imageUrl}}' class="media-object" style="width:200px">
   </div>
   <div class="media-body">
-    <h3 class="media-heading">{{memberToDisplay.name}} :: <em>{{memberToDisplay.instrument}}</em></h3>
-    <p class='lead'>{{memberToDisplay.bio}}</p>
+    <h3 class="media-heading">{{(memberToDisplay | async).name}} :: <em>{{(memberToDisplay | async).instrument}}</em></h3>
+    <p class='lead'>{{(memberToDisplay | async).bio}}</p>
   </div>
 </div>

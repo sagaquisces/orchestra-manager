@@ -12,14 +12,14 @@ import { FirebaseListObservable } from 'angularfire2/database';
   providers: [MemberService]
 })
 export class MemberDetailComponent implements OnInit {
-  memberId: number;
-  memberToDisplay: Member;
+  memberId: string;
+  memberToDisplay;
 
   constructor(private route: ActivatedRoute, private location: Location, private memberService: MemberService) { }
 
   ngOnInit() {
     this.route.params.forEach((urlParameters) => {
-      this.memberId = parseInt(urlParameters['id']);
+      this.memberId = urlParameters['id'];
     });
     this.memberToDisplay = this.memberService.getMemberById(this.memberId);
   }
