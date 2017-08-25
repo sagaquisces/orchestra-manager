@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+/*css for full size background image*/
+
+  background-image: url(assets/img/bg-music-darkened.jpg);
+  /*background-color: #fff;*/
+  /*text-align: center;*/
+  /*text-shadow: 0 1px 3px rgba(1,1,1,.5);*/
+
+}
+
+
+
+
+
+.navbar-default{
+  background:transparent !important;
+  background-image:none !important;
+  border: none !important;
+}
