@@ -1,3 +1,39 @@
-<p>
-  admin works!
-</p>
+<div class="well">
+  <h3>Add New Member to Roster</h3>
+  <div class="form-horizontal">
+    <div class="form-group">
+      <label class="control-label col-sm-2">Name:</label>
+      <div class="col-sm-6">
+        <input class="form-control" placeholder="Enter full name" #newName>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label col-sm-2">Instrument:</label>
+      <div class="col-sm-6">
+        <input class="form-control" placeholder="Enter instrument" #newInstrument>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label col-sm-2">Biography:</label>
+      <div class="col-sm-6">
+        <textarea class="form-control" placeholder="Enter biography" #newBio></textarea>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label col-sm-2">Image URL:</label>
+      <div class="col-sm-6">
+        <input class="form-control" placeholder="Enter an outside url" #newImageUrl>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button class="btn btn-primary" (click)="submitForm(newName.value, newInstrument.value, newBio.value, newImageUrl.value); newName.value=''; newInstrument.value=''; newBio.value='';
+        newImageUrl.value=''">Add Member</button>
+      </div>
+    </div>
+  </div>
+</div>

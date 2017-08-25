@@ -15,12 +15,18 @@ export class MemberService {
     return this.members;
   }
 
-  getMemberById(memberId: number) {
-    for (var i=0; i <= MEMBERS.length - 1; i++) {
-      if (MEMBERS[i].id === memberId) {
-        return MEMBERS[i];
-      }
-    }
+  addMember(newMember: Member) {
+    this.members.push(newMember);
   }
+
+  getMemberById(memberId: number) {
+    // for (var i=0; i <= MEMBERS.length - 1; i++) {
+    //   if (MEMBERS[i].id === memberId) {
+    //     return MEMBERS[i];
+    //   }
+    // }
+  }
+
+  
 
 }
