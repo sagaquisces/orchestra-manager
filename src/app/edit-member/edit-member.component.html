@@ -29,8 +29,9 @@
   </div>
 
   <div class="form-group">
-    <div class="col-sm-offset-2 col-sm-10">
-      <button class="btn btn-primary" (click)="beginUpdatingMember(selectedMember)">Update</button>
+    <div class="btn-group col-sm-offset-2 col-sm-10">
+      <button type="button" class="btn btn-warning" (click)="beginUpdatingMember(selectedMember)">Update</button>
+      <button type="button" class="btn btn-danger" (click)="beginDeletingMember(selectedMember)">Delete</button>
     </div>
   </div>
 </div>

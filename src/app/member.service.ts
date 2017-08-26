@@ -28,6 +28,9 @@ export class MemberService {
     memberEntryInFirebase.update({name: localUpdatedMember.name, instrument: localUpdatedMember.instrument, bio: localUpdatedMember.bio, imageUrl: localUpdatedMember.imageUrl});
   }
 
-
+  deleteMember(localMemberToDelete){
+      var memberEntryInFirebase = this.getMemberById(localMemberToDelete.$key);
+      memberEntryInFirebase.remove();
+    }
 
 }
